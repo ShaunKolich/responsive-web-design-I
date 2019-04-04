@@ -347,3 +347,61 @@ footer{
 text-align:center;
 }
 }
+
+@media(max-width:500px){
+	.nav_container{
+		width:100%;
+		background-color: transparent;
+		height:420px;
+	}
+
+
+	nav a.services{
+		margin-top:100px;
+		margin-left:0px;
+	}
+	.main_nav_logo_container{
+		/* border:2px solid red; */
+
+		width:85%;
+	}
+	.logo{
+		/* position:absolute; */
+		margin-left:15px;
+
+		/* top:-330px; */
+		/* border:2px solid purple; */
+	}
+	.nav a{
+
+		border-top:1px solid grey;
+		background-color:transparent; /* Grey background color */
+		color: grey; /* Black text color */
+		display: block; /* Make the links appear below each other */
+		padding: 12px; /* Add some padding */
+		text-decoration: none; /* Remove underline from links */
+		margin-left:0px;
+		text-align: center;
+
+	}
+		.nav a:hover{
+		background-image: linear-gradient(blue, lightblue);
+		color:white;
+	}
+	.services-header-img{
+		width: 50px;
+		border:2px solid black;
+	}
+	.bottom_border{
+	margin-left:70px;
+	}
+footer{
+	margin-left:60px;
+}
+
+
+
+
+
+
+}
