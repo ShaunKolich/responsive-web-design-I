@@ -130,125 +130,10 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Your code starts here! */
-
 .nav_container{
     width:100%;
-    height:100px;
-    /* border:2px solid red; */
-    margin-top:25px;
-    display: flex;
-    justify-content:center;
-}
-
-.nav a {
-    width:300px;
-    padding:0 30px 0 30px;
-    /* border:2px solid blue; */
-    color:grey;
-    text-decoration: none;
-}
-
-nav a.services{
-    margin-left:-100px;
-}
-.nav .logo{
-
-    /* border:2px solid black; */
-}
-
-.header_container{
-    width:100%;
-    /* border: 2px solid red; */
-    display:flex;
-    justify-content: center;
-}
-header .name{
-    font-size:60pt;
-    text-align: center;
-    /* border:2px solid blue; */
-}
-button{
-    color: darkslategrey;
-    font-size:12pt;
-    width:175px;
-    height:40px;
-    background-color:white;
-    border:1px solid black;
-    margin-left:20px;
-
-
-}
-button:hover{
-    background-image: linear-gradient(blue, lightblue);
-    color: white;
-}
-
-.header_img{
-    margin-left:100px;
-    margin-bottom:20px;
-
-
-}
-
-.content-first{
-/* border:2px solid red; */
-    margin:0 auto;
-    width: 875px;
-    margin-left:250px;
-    margin-right: 10px;
-    border-top: 1px solid black;
-	padding:20px 0px 20px 0px;
-	display:flex;
-    justify-content:center;
-
-}
-.content-first div{
-
-    margin-left:25px;
-    width:400px;
-}
-
-.middle-img{
-    margin-left:125px;
-}
-
-.content_bottom{
-    margin: 0 auto;
-    width: 900px;
-    margin-left:250px;
-    margin-right: 10px;
-    padding: 25px 0px 25px 0px;
-	border-bottom:1px solid black;
-	display:flex;
-	flex-direction:wrap;
-    width:900px;
-}
-
-
-.contact{
-    padding:25px 0px 0px 0px;
-    margin-left:250px;
-    margin-right: 10px;
-}
-
-footer{
-	padding-top: 100px;
-	text-align: center;
-}
-
-
-
-
-
-
-
-
-/*Services CSS starts here*/
-
-.nav_container{
-    width:100%;
-    height:100px;
+	height:100px;
+	margin-top:25px;
     /* border:2px solid red; */
     display: flex;
     justify-content:center;
@@ -399,7 +284,6 @@ li{
 	font-size:18pt;
 }
 
-
 @media(max-width:800px){
 
     .nav_container{
@@ -407,181 +291,118 @@ li{
 
         /* border:2px solid  purple; */
 
-    }
-    .main_nav_logo_container{
+	}
+	.main_nav_logo_container{
+		width:100%;
+        /* display: flex;
+        justify-content: center; */
+	}
 
-        display: flex;
-        justify-content: center;
-    }
-
-    .logo{
+	.logo{
         /* margin-right:250px; */
         /* border:2px solid blue; */
         /* position:absolute; */
-        margin-left:-330px;
+        margin-left:-130px;
 
     }
 
-    .nav {
+	.nav {
         margin-top:50px;
-        margin-right:-70px;
+        margin-right:-250px;
         /* border:2px solid black; */
 
-    }
-    .nav a{
+	}
+	header .img{
+		width:80%;
 
-        /* border:2px solid red; */
-        /* padding-left:40px; */
 
-    }
-    .header_container .header_img{
-        display:none;
-
-    }
-
-    .content-first{
-    width:90%;
-    display:flex;
-    margin-left: 20px;
-    }
-
-    .middle-img{
-        width:690px;
-        margin-left:10px;
-    }
-
-    .content_bottom{
-    width: 90%;
-    margin-left:20px;
-    }
-    .contact{
-    margin-left:20px;
 }
+	.top_container{
+		width:100%;
+	}
 
+	.top_container .first_content{
+	width:90%;
+	}
+
+	.content_middle_container.content_middle_container{
+		width:100%;
+
+	}
+	.bottom_border{
+	width:70%;
+	margin-left:140px;
+	}
+
+	.bottom_content{
+	width:100%;
+	}
+	.services-info-img{
+	display:none;
+	}
+
+	.bottom_content{
+		margin-left:70px;
+	}
+footer{
+text-align:center;
+}
 }
 
 @media(max-width:500px){
+	.nav_container{
+		width:100%;
+		background-color: transparent;
+		height:420px;
+	}
 
-    .nav_container{
-    width:100%;
-    background-color: transparent;
-    height:420px;
 
-    /* border:2px solid red; */
-    /* display:flex; */
-    /* border:2px solid blue; */
-    /* justify-content: center; */
+	nav a.services{
+		margin-top:100px;
+		margin-left:0px;
+	}
+	.main_nav_logo_container{
+		/* border:2px solid red; */
 
-}
+		width:85%;
+	}
+	.logo{
+		/* position:absolute; */
+		margin-left:15px;
 
-nav a.services{
-    margin-top:100px;
-    margin-left:0px;
-}
-.main_nav_logo_container{
-    /* border:2px solid red; */
+		/* top:-330px; */
+		/* border:2px solid purple; */
+	}
+	.nav a{
 
-    width:500px;
-}
-.logo{
-    /* position:absolute; */
-    margin-left:-180px;
+		border-top:1px solid grey;
+		background-color:transparent; /* Grey background color */
+		color: grey; /* Black text color */
+		display: block; /* Make the links appear below each other */
+		padding: 12px; /* Add some padding */
+		text-decoration: none; /* Remove underline from links */
+		margin-left:0px;
+		text-align: center;
 
-    /* top:-330px; */
-    /* border:2px solid purple; */
-}
-.nav a{
-    border-top:1px solid grey;
-    background-color:transparent; /* Grey background color */
-    color: grey; /* Black text color */
-    display: block; /* Make the links appear below each other */
-    padding: 12px; /* Add some padding */
-    text-decoration: none; /* Remove underline from links */
-    margin-left:0px;
-    text-align: center;
-
-}
-
-.nav a:hover{
-    background-image: linear-gradient(blue, lightblue);
-	color:white;
-}
-.header_container{
-    width:100%;
-/* border-bottom:1px solid blue; */
-    border:none;
-}
-
-.header_container .header_img{
-    display:none;
+	}
+		.nav a:hover{
+		background-image: linear-gradient(blue, lightblue);
+		color:white;
+	}
+	.services-header-img{
+		width: 50px;
+		border:2px solid black;
+	}
+	.bottom_border{
+	margin-left:70px;
+	}
+	footer{
+	margin-left:60px;
+	}
 
 
 
-}
-.header_container .name{
-    margin-left:50px;
-    /* border:2px solid black; */
-}
 
-.content-first{
-    width: 75%;
-    /* border:2px solid blue; */
-    margin-left:0%;
-    display: block;
-    margin:0 auto;
-    border:none;
-
-}
-
-.content-first div{
-    margin:0 auto;
-    /* border:2px solid black; */
 
 
 }
-.middle-img{
-    margin:0 auto;
-    width:400px;
-    margin-left:30px;
-}
-
-.content_bottom{
-width: 100%;
-/* border:2px solid red; */
-margin-left:30px;
-display:block;
-border:none;
-
-
-}
-
-.content_bottom div{
-    width:400px;
-    /* border:2px solid blue; */
-    margin: 0 auto;
-}
-
-.content-first .features_title{
-    padding-top:20px;
-    border-top:1px solid black;
-}
-
-.content_bottom .vision{
-border-bottom: 1px solid black;
-padding-bottom:20px;
-}
-.contact{
-margin-left:70px;
-}
-
-footer{
-margin-left:115px;
-}
-
-}
-
-
-
-
-
-
